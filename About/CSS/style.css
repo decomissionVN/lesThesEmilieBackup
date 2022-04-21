@@ -184,7 +184,7 @@ h2{
 }
 
 #background__top-homepage {
-    background-image: url(../../assets/IMAGES/HOME/Bg1.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Bg1.jpg);
     background-size: cover;
     background-position: center;
     position:fixed;
@@ -194,7 +194,7 @@ h2{
 }
 
 #background__top-about {
-    background-image: url(../IMAGES/ABOUT/background_top.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/ABOUT/background_top.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -202,7 +202,7 @@ h2{
 }
 
 #background__top-dashboard-Measures {
-    background-image: url(../IMAGES/HOME/Tailor.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/HOME/Tailor.jpg);
     background-size: cover;
     background-position: center;
     height: 20vh;
@@ -289,7 +289,7 @@ menu_dark{
     box-shadow: #000000 0 0 3px 0;
 }
 #image_contact {
-    background-image: url(../IMAGES/ABOUT/Home_About_Vivienne.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/ABOUT/Home_About_Vivienne.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -340,7 +340,7 @@ menu_dark{
 }
 /*HOMEPAGE - ARTICLE*/
 #home__article-ladies {
-    background-image: url(../IMAGES/HOME/Ladies.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/HOME/Ladies.jpg);
 }
 
 .home__article img{
@@ -357,7 +357,7 @@ menu_dark{
 }
 
 #home__article-gentlemens {
-    background-image: url(../IMAGES/HOME/Gentlemens.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/HOME/Gentlemens.jpg);
 }
 
 .home__images-hover {
@@ -393,7 +393,7 @@ menu_dark{
 }
 
 #home__wedding-picture {
-    background-image: url(../IMAGES/HOME/Wedding.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/HOME/Wedding.jpg);
 }
 
 .home__banner {
@@ -426,7 +426,7 @@ li a {
     margin-right:20px;
     max-width:200px;
     margin-left:20px;
-    background-image: url(../IMAGES/DASHBOARD/Lady_Dark.png);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/DASHBOARD/Lady_Dark.png);
     box-shadow: 0px 0px 8px 0px #bdbdbd;
     background-size: cover;
     
@@ -436,7 +436,7 @@ li a {
     max-width:200px;
     margin-left:20px;
     background-size: cover;
-    background-image: url(../IMAGES/DASHBOARD/Lady_Dark.png);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/DASHBOARD/Lady_Dark.png);
     box-shadow: 0px 0px 8px 0px #bdbdbd;
     
 }
@@ -445,7 +445,7 @@ li a {
     max-width:200px;
     margin-left:20px;
     background-size: cover;
-    background-image: url(../IMAGES/DASHBOARD/Gentlemen_Dark.png);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/DASHBOARD/Gentlemen_Dark.png);
     box-shadow: 0px 0px 8px 0px #bdbdbd;
 }
 #Gentlemen_put{
@@ -453,7 +453,7 @@ li a {
     max-width:200px;
     margin-left:20px;
     background-size: cover;
-    background-image: url(../IMAGES/DASHBOARD/Gentlemen_Dark.png);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/DASHBOARD/Gentlemen_Dark.png);
     box-shadow: 0px 0px 8px 0px #bdbdbd;
 }
 
@@ -1387,7 +1387,7 @@ simulator__window_bottom_Measures img {
 }
 
 #appointment__window {
-    background-image: url("../IMAGES/APPOINTMENT/World_full.jpg");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/World_full.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
@@ -1413,102 +1413,102 @@ simulator__window_bottom_Measures img {
 }
 
 #UTC-8 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-8.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-8.png");
     animation: fade_long 5s ease infinite; 
 }
 
 #UTC-7 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-7.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-7.png");
     animation: fade_long 5s ease 0.25s infinite;
 }
 
 #UTC-6 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-6.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-6.png");
     animation: fade_long 5s ease 0.5s infinite;
 }
 
 #UTC-5 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-5.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-5.png");
     animation: fade_long 5s ease 0.75s infinite;
 }
 
 #UTC-4 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-4.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-4.png");
     animation: fade_long 5s ease 1s infinite;
 }
 
 #UTC-3 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-3.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-3.png");
     animation: fade_long 5s ease 1.25s infinite;
 }
 
 #UTC-2 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC-2.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC-2.png");
     animation: fade_long 5s ease 1.5s infinite;
 }
 
 #UTC0 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+0.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+0.png");
     animation: fade_long 5s ease 1.75s infinite;
 }
 
 #UTC1 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+1.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+1.png");
     animation: fade_long 5s ease 2s infinite;
 }
 
 #UTC2 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+2.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+2.png");
     animation: fade_long 5s ease 2.25s infinite;
 }
 
 #UTC3 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+3.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+3.png");
     animation: fade_long 5s ease 2.5s infinite;
 }
 
 #UTC4 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+4.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+4.png");
     animation: fade_long 5s ease 2.75s infinite;
 }
 
 #UTC5 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+5.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+5.png");
     animation: fade_long 5s ease 3s infinite;
 }
 
 #UTC6 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+6.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+6.png");
     animation: fade_long 5s ease 3.25s infinite;
 }
 
 #UTC7 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+7.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+7.png");
     animation: fade_long 5s ease 3.5s infinite;
 }
 
 #UTC8 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+8.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+8.png");
     animation: fade_long 5s ease 3.75s infinite;
 }
 
 #UTC9 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+9.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+9.png");
     animation: fade_long 5s ease 4s infinite;
 }
 
 #UTC10 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+10.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+10.png");
     animation: fade_long 5s ease 4.25s infinite;
 }
 
 #UTC11 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+11.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+11.png");
     animation: fade_long 5s ease 4.5s infinite;
 }
 
 #UTC12 {
-    background-image: url("../IMAGES/APPOINTMENT/UTC+12.png");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/APPOINTMENT/UTC+12.png");
     animation: fade_long 5s ease 4.75s infinite;
 }
 
@@ -1521,7 +1521,7 @@ simulator__window_bottom_Measures img {
 /*PRE-SIMULATOR DRESSES*/
 
 #background__top-ladies-dark {
-    background-image: url(../IMAGES/LADIES/Ladies-top-dark.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/LADIES/Ladies-top-dark.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -1645,7 +1645,7 @@ input #file-upload-button{
 /*SUIT LADIES PRESENTATION*/
 
 #background__top-ladies-suit {
-    background-image: url(../IMAGES/LADIES/Ladies-top-suit.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/LADIES/Ladies-top-suit.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -1686,7 +1686,7 @@ button {
 }
 
 #background__top-ladies-suit-dark {
-    background-image: url(../IMAGES/LADIES/Ladies-top-suit-dark.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/LADIES/Ladies-top-suit-dark.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -1695,7 +1695,7 @@ button {
     top: 0;
 }
 #background__top-gentlemens-suit-dark {
-    background-image: url(../IMAGES/GENTLEMENS/Gentlemens_top_fabric-suit.jpg);
+    background-image: url(https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/GENTLEMENS/Gentlemens_top_fabric-suit.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
@@ -1731,7 +1731,7 @@ button {
 }
 
 #picture_personal {
-    background-image: url("../IMAGES/DASHBOARD/Me_dark.jpg");
+    background-image: url("https://decomissionvn.github.io/lesThesEmilieBackup/IMAGES/DASHBOARD/Me_dark.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
