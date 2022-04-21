@@ -126,7 +126,7 @@ console.log(response_reverse);
 
             <div class="col-md-6 mb-5">
                 <div class="orderlist text-center">
-                    <img src="../../../backend/images${file[1]}" alt="Tailoring order" class="width70"/>
+                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" alt="Tailoring order" class="width70"/>
                 </div>
             </div>
 

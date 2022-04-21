@@ -59,7 +59,7 @@ function Signup_content() {
                             <div id="Password_warn">Please choose a password</div>
 
                             <label for="CGU">General conditions of Use</label>
-                            <p class="m-0"><input type="checkbox" name="CGU" id="CGU" placeholder="CGU" required>I read and accept the <a id="CGU_link" href="../CGU/Cgu.html" alt="CGU Trois-Fils">CGU<a/></p>
+                            <p class="m-0"><input type="checkbox" name="CGU" id="CGU" placeholder="CGU" required>I read and accept the <a id="CGU_link" href="https://decomissionvn.github.io/lesThesEmilieBackup/CGU/Cgu.html" alt="CGU Trois-Fils">CGU<a/></p>
                             <div id="CGU_warn">Please agree with our CGU</div>
 
                             <div class="mt-5">

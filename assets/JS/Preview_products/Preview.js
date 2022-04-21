@@ -449,11 +449,11 @@ function delivery_content(translation) {
     let delivery_content = `
 <div class="text-center">
     <div class="announce__banner text-center mt-4 pt-4 pb-4" id="paypal_delivery">
-        <img id="gift" src="../assets/IMAGES/HOME/gift.png">
+        <img id="gift" src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/gift.png">
         <div class="d-flex justify-content-around">
             <p class="mt-2 pt-2 w-100 text-center">${translation.delivery}</p>
         </div>
-        <img src="../assets/IMAGES/HOME/CarteVisite.png" id="carteVisite">
+        <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/CarteVisite.png" id="carteVisite">
         
     </div>
 </div>
@@ -606,7 +606,7 @@ function save_this_item(response, quantity) {
 
 function order_saved_successfully(response) {
     console.log(response);
-    setTimeout(window.location.replace("../Dashboard/Cart.html"), 5000);
+    setTimeout(window.location.replace("https://decomissionvn.github.io/lesThesEmilieBackup/Dashboard/Cart.html"), 5000);
 }
 
 //IF HE PREFERS TO PAY DIRECTLY, THE ORDER IS CREATED WITH STATUS PAID

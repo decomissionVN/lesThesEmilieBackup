@@ -61,7 +61,7 @@ function Display_cookies_translated(language) {
             <a href="#" onclick="acceptCookies()" class="button mt-4">I accept</a>
         </div>
         <div class="col-12 mt-4 mb-4">
-            <a href="../CGU/CGU.html" class="button mt-4">Privacy Policy</a>
+            <a href="https://decomissionvn.github.io/lesThesEmilieBackup/CGU/CGU.html" class="button mt-4">Privacy Policy</a>
         </div>
         </div>`
 
@@ -269,11 +269,11 @@ function Add_Menu_responsif_logged(translation) {
             </button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/HOME/index.html">${translation.Home}</a>
-                    <a class="dropdown-item" href="../HOME/About.html">${translation.Our_tea}</a>
-                    <a class="dropdown-item" href="../LADIES/Ladies.html">${translation.Accessoires}</a>
-                    <a class="dropdown-item" href="../GENTLEMENS/Gentlemens.html">${translation.Souvenirs}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/HOME/About.html">${translation.Our_tea}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/LADIES/Ladies.html">${translation.Accessoires}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/GENTLEMENS/Gentlemens.html">${translation.Souvenirs}</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../HOME/Contact.html">${translation.Contact_us}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/HOME/Contact.html">${translation.Contact_us}</a>
                 </div>
             </div>
 
@@ -289,7 +289,7 @@ function Add_Menu_responsif_logged(translation) {
         </div>
 </header>
 <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">
-<div class="menu_Dashboard"><a href="../DASHBOARD/Dashboard.html">${translation.Dashboard}</a></div>
+<div class="menu_Dashboard"><a href="https://decomissionvn.github.io/lesThesEmilieBackup/DASHBOARD/Dashboard.html">${translation.Dashboard}</a></div>
 
 
 
@@ -312,10 +312,10 @@ function Add_Menu_responsif_logged(translation) {
         </div>
 
         <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
-        <div class="menu"><a class="dropdown-item" href="../Home/index.html">${translation.Home}</a></div>
-        <div class="menu"><a class="dropdown-item" href="../Products/Our_tea.html">${translation.Our_tea}</a></div>
-        <div class="menu"><a class="dropdown-item" href="../Products/Our_accessoires.html">${translation.Accessoires}</a></div>
-        <div class="menu"><a class="dropdown-item" href="../Products/Souvenirs.html">${translation.Souvenirs}</a></div>
+        <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Home/index.html">${translation.Home}</a></div>
+        <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea}</a></div>
+        <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Our_accessoires.html">${translation.Accessoires}</a></div>
+        <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Souvenirs.html">${translation.Souvenirs}</a></div>
 
         <!-- Button to sign-in or sign out -->
         <div class="btn-group mr-4">

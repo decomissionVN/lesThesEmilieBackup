@@ -255,7 +255,7 @@ function display_all_products_onpage(response){
                             <div class="col-lg-3 pt-4 pb-4 mb-4 mr-4 Product_present text-center ${Product._subcategory}">
                                 <a href="#" onclick="view_Product('${Product.__id}')" class="Product_present_a">
                                     <h2>${Product._name}</h2>
-                                    <img src="../../../backend/images${file[1]}" class="w-60 pt-2 pb-4">
+                                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" class="w-60 pt-2 pb-4">
                                     <p class="text-justify">${Product._comment}</p>
                                     <p>${Product._price} euros</p>
                                 </a>
@@ -273,7 +273,7 @@ function display_all_products_onpage(response){
                             <div class="col-lg-3 pt-4 pb-4 mb-4 mr-4 Product_present text-center ${Product._subcategory}">
                                 <a href="#" onclick="view_Product('${Product.__id}')" class="Product_present_a">
                                     <h2>${Product._name_en}</h2>
-                                    <img src="../../../backend/images${file[1]}" class="w-60 pt-2 pb-4">
+                                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" class="w-60 pt-2 pb-4">
                                     <p class="text-justify">${Product._comment_en}</p>
                                     <p>${Product._price} euros</p>
                                 </a>
@@ -372,5 +372,5 @@ function view_Product(_id){
     event.preventDefault();
     let queryParams = new URLSearchParams(window.location.search);
         queryParams.set("ProductId", _id);
-        window.setTimeout(window.location.replace("../Products/Preview_product.html" + "?" + queryParams.toString()), 5000);
+        window.setTimeout(window.location.replace("https://decomissionvn.github.io/lesThesEmilieBackup/Products/Preview_product.html" + "?" + queryParams.toString()), 5000);
 }
