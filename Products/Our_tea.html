@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- PARAMETERS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+
+    <!-- CSS - STYLE & BOOTSTRAP & AOS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Parisienne">
+    <link rel="stylesheet" type="text/css" href="../assets/CSS/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS - BOOTSTRAP & AOS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- SEO and Optimisation -->
+    <title id="Title_Page"></title>
+
+</head>
+
+<body>
+
+    <!-- HEADER AND LANGUAGES -->
+    <div id="Menu_top_general_responsive"></div>
+
+    <!-- BACKGROUND IMAGE TOP HOMEPAGE -->
+    <div id="Home_Presentation_Half">
+        <div class="row Parisienne">
+            <div class="offset-xl-2 col-xl-8 offset-md-1 col-md-10" id="home_presentation">
+                <div id="home_presentation_div" class="text-center">
+                    <div class="row personalisation__background-popup pt-4 pb-4 text-center" id="personalisation__popup-top">
+                        <div id="post_product_div" class="w-100 pl-5 pr-5 background_grey">
+                            
+                            <!--EXPLAINATIONS -->
+                            <div class="col-12">
+                                <h2 class="">Enregistrer un nouveau produit</h2>
+                                <p class="">Pour enregistrer un nouveau thé, veuillez entrer les informations suivantes</p>
+                            </div>
+        
+                            <!--PLACE TO UPLOAD THE PICTURE-->
+                            <div class="text-center width100 pt-2 pb-2 background_grey_brown">
+                                    <label for="picture">Télécharger une photo : </label>
+                                    <input type="file" id="picture" accept="image/png, image/jpeg, image/jpg, image/bmp">
+                                </div>
+                        
+        
+                            <!--ANY COMMENT?-->
+                            <div class="m-auto width80">
+                                
+                                <div class="pt-4">
+                                    <form method="post" id="Upload_picture-comment" autocomplete="on">
+                                        
+                                        <!--Name of the product-->
+                                        <label for="Name">Nom</label>
+                                        <div>
+                                            <input class="" type="text" id="name" placeholder="Nom du produit">
+                                        </div>
+                                        <div id="Information_contact-picture">
+
+                                            <!--Price of the product-->
+                                            <label for="Price">Prix</label>
+                                            <div>
+                                                <input class="" type="number" id="Price" placeholder="Prix total">
+                                            </div>
+
+                                            <!--Comment of the product-->
+                                            <label for="Comment">Commentaire</label>
+                                            <div>
+                                                <input class="" type="text" id="Comment" placeholder="Commentaire du produit">
+                                            </div>
+
+                                            <!--Name of the product ENGLISH-->
+                                            <label for="Name">Nom English</label>
+                                            <div>
+                                                <input class="" type="text" id="name" placeholder="Nom du produit">
+                                            </div>
+
+                                            <!--Comment of the product ENGLISH-->
+                                            <label for="Comment">Commentaire english</label>
+                                            <div>
+                                                <input class="" type="text" id="Comment" placeholder="Commentaire du produit">
+                                            </div>
+
+                                            <!--The category of sachet-->
+                                            <div class="w-100 d-flex justify-content-around">
+                                                <div class="menu_dark"><a class="dropdown-item" id="boite_choix" href="#">Thés en boite</a></div>
+                                                <div class="menu_dark"><a class="dropdown-item" id="sachet_choix" href="#">Les sachets</a></div>
+                                                <div class="menu_dark"><a class="dropdown-item" id="Infusion_choix" href="#">Infusions</a></div>
+                                                <div class="menu_dark"><a class="dropdown-item" id="Vrac_choix" href="#">Thés en Vrac</a></div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button class="button mt-4" id="submit_picture">Enregistrer</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="w-100 text-center pt-5" id="selection_exception"></h2>
+                        <div class="w-100 m-auto text-center pt-2">
+                            <img src="../assets/IMAGES/HOME/Separation.png" class="pb-3 Separator">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100 home__banner d-flex justify-content-around mb-5">
+                    <div class="menu"><a class="dropdown-item" id="boite" href="#"></a></div>
+                    <div class="menu"><a class="dropdown-item" id="sachet" href="#"></a></div>
+                    <div class="menu"><a class="dropdown-item" id="infusion" href="#"></a></div>
+                    <div class="menu"><a class="dropdown-item" id="vrac" href="#"></a></div>
+                </div>
+
+
+                <div class="row w-100 pr-5 pl-5 d-flex justify-content-around" id="display_products">
+                    
+                </div>
+                
+                <footer class="mt-5" id="footer"></footer>
+            </div>
+        </div>
+    </div>
+
+    <div class="background__top-pages mb-5" id="background__top-homepage"></div>
+
+
+    <!-- JS ANIMATION ON SCOLL-->
+    <script>AOS.init();</script>
+    <script type="text/javascript" src="../assets/JS/MENU/footer.js"></script>
+    <script type="text/javascript" src="../assets/JS/MENU/Menu_Responsif.js"></script>
+    <script type="text/javascript" src="../assets/JS/ADMIN-ORDERS/Upload_picture.js"></script>
+    <script type="text/javascript" src="../assets/JS/Products_tea_upload/Upload_pictureTea.js"></script>
+    <script type="text/javascript" src="../assets/JS/AUTH/Auth_Popup_general.js"></script>
+
+</body>
+</html>
