@@ -49,7 +49,7 @@ function Display_cookies_translated(language) {
             <a href="#" onclick="acceptCookies()" class="button mt-4">J'accepte</a>
         </div>
         <div class="col-12 mb-4 mt-4">
-            <a href="https://lesthesdemilie.net/CGU/CGU.html" class="button mt-4">Nos CGUs</a>
+            <a href="https://decomissionvn.github.io/lesThesEmilieBackup/CGU/CGU.html" class="button mt-4">Nos CGUs</a>
         </div>
         </div>`
 
@@ -89,7 +89,7 @@ function Close_Popup_cookies() {
 function Add_Menu_responsif(translation) {
     let menu_responsif = `
 <div id="popup_cookies">
-    <a href="#" onclick="Close_Popup_cookies()"><img class="close_icon" src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
+    <a href="#" onclick="Close_Popup_cookies()"><img class="close_icon" src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
     <div id="CookiesMessage">
     </div>
 </div>
@@ -98,7 +98,7 @@ function Add_Menu_responsif(translation) {
     <div class="Popup__background" id="Popup__background" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000">
 <div class="Popup__background_dark" id="Popup__background_dark" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000"></div>
         <div id="Popup__Auth" class="text-center" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="1400" data-aos-delay="700">
-        <a href="#" onclick="Close_Popup()"><img class="close_icon" src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
+        <a href="#" onclick="Close_Popup()"><img class="close_icon" src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
             <div class="row">
                 <div class="col-sm-8 offset-sm-2">
                 <div id="Explications_general"></div>
@@ -151,20 +151,20 @@ function Add_Menu_responsif(translation) {
             <!-- Button to drop the main menu -->
             <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/menu.png"/>
+                <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://lesthesdemilie.net/Home/index.html">${translation.Home}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.net/Products/Our_tea.html">${translation.Our_tea}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.net/Products/Our_accessoires.html">${translation.Accessoires}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.net/Products/Souvenirs.html">${translation.Souvenirs}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Home/index.html">${translation.Home}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Our_accessoires.html">${translation.Accessoires}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Souvenirs.html">${translation.Souvenirs}</a>
                 </div>
             </div>
 
             <!-- Button to sign-in or sign out -->
             <div class="btn-group">
             <button type="button" class="btn btn-secondary profile dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/profile.png"/>
+                <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/profile.png"/>
             </button>
                 <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item Login_Menu" onclick="Login_Menu()" id="Login_Menu_Mobile" href="#">${translation.Login}</a>
@@ -187,7 +187,7 @@ function Add_Menu_responsif(translation) {
         <div class="menu d-none col-12 d-lg-flex">
             <div class="btn-group mr-4">
                 <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/language.png"/>
+                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/language.png"/>
                 </button>
                     <div class="dropdown-menu dropdown-menu-right header__language-choice">
                     <ul>
@@ -197,16 +197,16 @@ function Add_Menu_responsif(translation) {
                     </div>
             </div>
 
-            <img src="https://lesthesdemilie.net/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.net/Home/index.html">${translation.Home}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.net/Products/Our_tea.html">${translation.Our_tea}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.net/Products/Our_accessoires.html">${translation.Accessoires}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.net/Products/Souvenirs.html">${translation.Souvenirs}</a></div>
+            <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Home/index.html">${translation.Home}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Our_accessoires.html">${translation.Accessoires}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/Products/Souvenirs.html">${translation.Souvenirs}</a></div>
 
             <!-- Button to sign-in or sign out -->
             <div class="btn-group mr-4">
                 <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/profile.png" id="profile_icon"/>
+                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/profile.png" id="profile_icon"/>
                 </button>
                 <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item Login_Menu" onclick="Login_Menu()" id="Login_Menu_Desktop" href="#">${translation.Login}</a>
@@ -216,7 +216,7 @@ function Add_Menu_responsif(translation) {
         </div>
         
     </header>
-    <img src="https://lesthesdemilie.net/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">`
+    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">`
 
     document.getElementById('Menu_top_general_responsive').innerHTML = menu_responsif;
         
@@ -229,7 +229,7 @@ function Add_Menu_responsif(translation) {
 function Add_Menu_responsif_logged(translation) {
     let menu_responsif = `
 <div id="popup_cookies">
-    <a href="#" onclick="Close_Popup_cookies()"><img class="close_icon" src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
+    <a href="#" onclick="Close_Popup_cookies()"><img class="close_icon" src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
     <div id="CookiesMessage">
     </div>
 </div>
@@ -237,7 +237,7 @@ function Add_Menu_responsif_logged(translation) {
 <!--Popup Explications -->
     <div class="Popup__background" id="Popup__background" data-aos="fade" data-aos-easing="ease-in" data-aos-duration="1000">
         <div id="Popup__Auth" class="text-center" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="1400" data-aos-delay="700">
-        <a href="#" onclick="Close_Popup()"><img class="close_icon" src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
+        <a href="#" onclick="Close_Popup()"><img class="close_icon" src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/Close_black.png" alt="Close"/></a>
             <div class="row">
                 <div class="col-sm-8 offset-sm-2" id="Explications_general">
                     
@@ -265,10 +265,10 @@ function Add_Menu_responsif_logged(translation) {
             <!-- Button to drop the main menu -->
             <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/menu.png"/>
+                <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://lesthesdemilie.net/HOME/index.html">${translation.Home}</a>
+                    <a class="dropdown-item" href="https://decomissionvn.github.io/lesThesEmilieBackup/HOME/index.html">${translation.Home}</a>
                     <a class="dropdown-item" href="../HOME/About.html">${translation.Our_tea}</a>
                     <a class="dropdown-item" href="../LADIES/Ladies.html">${translation.Accessoires}</a>
                     <a class="dropdown-item" href="../GENTLEMENS/Gentlemens.html">${translation.Souvenirs}</a>
@@ -280,7 +280,7 @@ function Add_Menu_responsif_logged(translation) {
             <!-- Button to sign-in or sign out -->
             <div class="btn-group">
                 <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/profile.png"/>
+                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/profile.png"/>
                 </button>
                 <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item Signout_Menu" onclick="Signout_Menu()" id="Signout_Menu_Mobile" href="#">${translation.Signout}</a>
@@ -288,7 +288,7 @@ function Add_Menu_responsif_logged(translation) {
             </div>
         </div>
 </header>
-<img src="https://lesthesdemilie.net/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">
+<img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">
 <div class="menu_Dashboard"><a href="../DASHBOARD/Dashboard.html">${translation.Dashboard}</a></div>
 
 
@@ -301,7 +301,7 @@ function Add_Menu_responsif_logged(translation) {
     <div class="menu d-none col-12 d-lg-flex">
         <div class="btn-group mr-4">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/language.png"/>
+                <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/language.png"/>
             </button>
                 <div class="dropdown-menu dropdown-menu-right header__language-choice">
                 <ul>
@@ -311,7 +311,7 @@ function Add_Menu_responsif_logged(translation) {
                 </div>
         </div>
 
-        <img src="https://lesthesdemilie.net/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
+        <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
         <div class="menu"><a class="dropdown-item" href="../Home/index.html">${translation.Home}</a></div>
         <div class="menu"><a class="dropdown-item" href="../Products/Our_tea.html">${translation.Our_tea}</a></div>
         <div class="menu"><a class="dropdown-item" href="../Products/Our_accessoires.html">${translation.Accessoires}</a></div>
@@ -320,7 +320,7 @@ function Add_Menu_responsif_logged(translation) {
         <!-- Button to sign-in or sign out -->
         <div class="btn-group mr-4">
             <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://lesthesdemilie.net/assets/IMAGES/GENERAL/profile.png" id="profile_icon"/>
+                <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/profile.png" id="profile_icon"/>
             </button>
             <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item Signout_Menu" onclick="Signout_Menu()" id="Signout_Menu_Desktop" href="#">${translation.Signout}</a>
@@ -329,8 +329,8 @@ function Add_Menu_responsif_logged(translation) {
     </div>
     
     </header>
-<img src="https://lesthesdemilie.net/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">
-<div class="menu_Dashboard"><a href="https://lesthesdemilie.net/DASHBOARD/Dashboard.html">${translation.Dashboard}</a></div>`
+<img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Header_bottom.png" id="Header_separator">
+<div class="menu_Dashboard"><a href="https://decomissionvn.github.io/lesThesEmilieBackup/DASHBOARD/Dashboard.html">${translation.Dashboard}</a></div>`
 
     document.getElementById('Menu_top_general_responsive').innerHTML = menu_responsif;
 }
