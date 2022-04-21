@@ -1,6 +1,6 @@
 function display_footer(translation) {
     document.getElementById('footer').innerHTML = `
-    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Footer_top.png" id="Footer_bottom" class="w-100">
+    <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Footer_top.png" id="Footer_bottom" class="w-100">
     <div class="row footer_color pt-5 Parisienne">
             <div class="col-10 offset-1 text-center">
                 <div class="row text-center">
@@ -15,13 +15,13 @@ function display_footer(translation) {
                             <h2 class="pt-5 w-100">${translation.Social_media}</h2>
                             
                                 <div class="col-3 col-lg-3 Icons__social-media" aria-label="Facebook">
-                                    <a href="" alt="Facebook"><img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Facebook.png" alt="Facebook"></a>
+                                    <a href="" alt="Facebook"><img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Facebook.png" alt="Facebook"></a>
                                 </div>
                                 <div class="col-3 col-lg-3 Icons__social-media"  aria-label="Instagram">
-                                    <a href="" alt="Instagram"><img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Instagram.png" alt="Instagram"></a>
+                                    <a href="" alt="Instagram"><img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Instagram.png" alt="Instagram"></a>
                                 </div>
 
-                            <a href="https://decomissionvn.github.io/lesThesEmilieBackup/dashboard/Contact_us.html" class="button_reverse mt-5 mb-5">${translation.Contact}</a>
+                            <a href="https://decommissionvn.github.io/lesThesEmilieBackup/dashboard/Contact_us.html" class="button_reverse mt-5 mb-5">${translation.Contact}</a>
                             <p class="mt-5 w-100 text-center">76 Boulevard Haussmann, 75008 Paris</p>
                             <p class="w-100 text-center">01 43 87 39 84</p>
                             </div>
@@ -30,7 +30,7 @@ function display_footer(translation) {
                 </div>
 
                     
-                <div class="w-100 pb-5 text-center white">Copyright 2020 - VN  /  <a href="https://decomissionvn.github.io/lesThesEmilieBackup/CGU/CGU.html">CGU</a></div>
+                <div class="w-100 pb-5 text-center white">Copyright 2020 - VN  /  <a href="https://decommissionvn.github.io/lesThesEmilieBackup/CGU/CGU.html">CGU</a></div>
             </div>
         </div>
     `

@@ -274,12 +274,12 @@ console.log(response);
 
                 <div class="col-md-6 mb-5">
                     <div class="orderlist text-center">
-                        <img src="https://decomissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" alt="Tailoring order" class="width70"/>
+                        <img src="https://decommissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" alt="Tailoring order" class="width70"/>
                     </div>
                 </div>
             </div>
             <div class="w-100 m-auto text-center pt-2 mb-5">
-                <img src="https://decomissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Separation.png" class="pb-3 Separator">
+                <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Separation.png" class="pb-3 Separator">
             </div>
             
             `
@@ -309,5 +309,5 @@ function PaymentorderId(orderId) {
         let queryParams = new URLSearchParams(window.location.search);
             queryParams.set("ProductId", orderId);
             queryParams.set("confirmCart", "Confirm");
-            window.setTimeout(window.location.replace("https://decomissionvn.github.io/lesThesEmilieBackup/Products/Preview_product.html" + "?" + queryParams.toString()), 5000);
+            window.setTimeout(window.location.replace("https://decommissionvn.github.io/lesThesEmilieBackup/Products/Preview_product.html" + "?" + queryParams.toString()), 5000);
 }

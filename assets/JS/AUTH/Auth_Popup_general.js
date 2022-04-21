@@ -81,7 +81,7 @@ function Signup_content() {
 
 
                             <label for="CGU">${translation.CGU}</label>
-                            <p class="m-0"><input type="checkbox" name="CGU" id="CGU" placeholder="CGU" required>${translation.Read}<a id="CGU_link" href="https://decomissionvn.github.io/lesThesEmilieBackup/CGU/Cgu.html" alt="CGU Trois-Fils">${translation.CGU_Small}<a/></p>
+                            <p class="m-0"><input type="checkbox" name="CGU" id="CGU" placeholder="CGU" required>${translation.Read}<a id="CGU_link" href="https://decommissionvn.github.io/lesThesEmilieBackup/CGU/Cgu.html" alt="CGU Trois-Fils">${translation.CGU_Small}<a/></p>
                             <div id="CGU_warn">${translation.Agree_CGU}</div>
 
                             <div class="mt-5">

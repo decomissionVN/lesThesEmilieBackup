@@ -21,7 +21,7 @@ function display_button_correct(response) {
     if (response.message == 'Token is valid') {
         console.log(response + 'OK');
         document.getElementById("button_contact_login").innerHTML = `
-                    <a href="https://decomissionvn.github.io/lesThesEmilieBackup/DASHBOARD/Contact.html" id="Login_contact" alt="Contact your personal tailor" class="button" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100" data-aos-duration="1600">Contact my personal tailor</a>
+                    <a href="https://decommissionvn.github.io/lesThesEmilieBackup/DASHBOARD/Contact.html" id="Login_contact" alt="Contact your personal tailor" class="button" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="100" data-aos-duration="1600">Contact my personal tailor</a>
                 `;
     }
 }

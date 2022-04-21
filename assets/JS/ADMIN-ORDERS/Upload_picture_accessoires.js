@@ -98,5 +98,5 @@ function view_Product(_id){
     event.preventDefault();
     let queryParams = new URLSearchParams(window.location.search);
         queryParams.set("ProductId", _id);
-        window.setTimeout(window.location.replace("https://decomissionvn.github.io/lesThesEmilieBackup/Products/Preview_product.html" + "?" + queryParams.toString()), 5000);
+        window.setTimeout(window.location.replace("https://decommissionvn.github.io/lesThesEmilieBackup/Products/Preview_product.html" + "?" + queryParams.toString()), 5000);
 }

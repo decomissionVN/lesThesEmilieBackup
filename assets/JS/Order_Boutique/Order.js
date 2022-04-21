@@ -299,7 +299,7 @@ function display_all_orders_onpage(response){
 
                             <div class="col-md-5 pt-4 pb-4 mb-4 mr-4 Product_present text-center ${Product._subcategory}">
                                     <h2>${Product._name}</h2>
-                                    <img src="https://decomissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" class="w-60 pt-2 pb-4">
+                                    <img src="https://decommissionvn.github.io/lesThesEmilieBackup/backend/images${file[1]}" class="w-60 pt-2 pb-4">
                                     <p class="text-justify">${Product._comment}</p>
                                     <p><b>${Product._price} euros</b></p>
                                     <p>Le client a payé pour <b> ${Product._quantity} pièces</b></p>
