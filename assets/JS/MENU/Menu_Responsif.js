@@ -154,21 +154,11 @@ function Add_Menu_responsif(translation) {
                 <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Home/index.html">${translation.Home}</a>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea}</a>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_accessoires.html">${translation.Accessoires}</a>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Souvenirs.html">${translation.Souvenirs}</a>
-                </div>
-            </div>
-
-            <!-- Button to sign-in or sign out -->
-            <div class="btn-group">
-            <button type="button" class="btn btn-secondary profile dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/profile.png"/>
-            </button>
-                <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item Login_Menu" onclick="Login_Menu()" id="Login_Menu_Mobile" href="#">${translation.Login}</a>
-                    <a class="dropdown-item Signup_Menu" onclick="Signup_Menu()" id="Signup_Menu_Mobile" href="#">${translation.Signup}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com">${translation.Home}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Benefits.html">${translation.Our_tea}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/History.html">${translation.history}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Preparation.html">${translation.preparation}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Selection.html">${translation.selection}</a>
                 </div>
             </div>
         </div>
@@ -198,21 +188,11 @@ function Add_Menu_responsif(translation) {
             </div>
 
             <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
-            <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Home/index.html">${translation.Home}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_accessoires.html">${translation.Accessoires}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Souvenirs.html">${translation.Souvenirs}</a></div>
-
-            <!-- Button to sign-in or sign out -->
-            <div class="btn-group mr-4">
-                <button type="button" class="btn btn-secondary dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/profile.png" id="profile_icon"/>
-                </button>
-                <div id="header__identification-button" class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item Login_Menu" onclick="Login_Menu()" id="Login_Menu_Desktop" href="#">${translation.Login}</a>
-                    <a class="dropdown-item Signup_Menu" onclick="Signup_Menu()" id="Signup_Menu_Desktop" href="#">${translation.Signup}</a>
-                </div>
-            </div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com">${translation.Home}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Benefits.html">${translation.Our_tea}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/History.html">${translation.history}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Preparation.html">${translation.preparation}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Selection.html">${translation.selection}</a></div>
         </div>
         
     </header>
