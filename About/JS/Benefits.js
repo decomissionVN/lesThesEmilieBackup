@@ -88,7 +88,6 @@ function language_used(){
             Selection : "Our tea & Selection ",
             Preparation : "Préparation of tea ",
             Boutique : "Our shop",
-
             greentea : "Green tea",
             meditation : "Meditation",
             Presentation1 : "Benefits of green tea",

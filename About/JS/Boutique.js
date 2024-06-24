@@ -10,7 +10,6 @@ function language_used(){
             Selection : "Nos thés & Séléctions",
             Preparation : "Préparation du thé",
             Boutique : "Notre boutique",
-
             Presentation1 : "La boutique Twinings a été créée en 1910 par un descendant de la famille Twining.",
             Presentation2 : "Elle s'appelle désormais Les thés d'Emilie et propose en premier lieu les thés Twinings, une variété de produits exclusifs importés d'Angleterre en sachets et en boîtes, théières, tasses et gourmandises.",
             Selectionbtn : "Nos thés et sélections",

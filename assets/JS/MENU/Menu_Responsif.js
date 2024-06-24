@@ -155,10 +155,10 @@ function Add_Menu_responsif(translation) {
             </button>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="https://lesthesdemilie.com">${translation.Home}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Benefits.html">${translation.Our_tea}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/History.html">${translation.history}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Preparation.html">${translation.preparation}</a>
-                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Selection.html">${translation.selection}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Benefits.html">${translation.Benefits}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/History.html">${translation.History}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Preparation.html">${translation.Preparation}</a>
+                    <a class="dropdown-item" href="https://lesthesdemilie.com/About/Selection.html">${translation.Selection}</a>
                 </div>
             </div>
         </div>
@@ -189,10 +189,10 @@ function Add_Menu_responsif(translation) {
 
             <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
             <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com">${translation.Home}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Benefits.html">${translation.Our_tea}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/History.html">${translation.history}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Preparation.html">${translation.preparation}</a></div>
-            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Selection.html">${translation.selection}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Benefits">${translation.Benefits}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/History">${translation.History}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Preparation">${translation.Preparation}</a></div>
+            <div class="menu"><a class="dropdown-item" href="https://lesthesdemilie.com/About/Selection">${translation.Selection}</a></div>
         </div>
         
     </header>
@@ -205,7 +205,7 @@ function Add_Menu_responsif(translation) {
 
 
 
-
+// DEPRECATED
 function Add_Menu_responsif_logged(translation) {
     let menu_responsif = `
 <div id="popup_cookies">
@@ -248,12 +248,10 @@ function Add_Menu_responsif_logged(translation) {
                 <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/GENERAL/menu.png"/>
             </button>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/HOME/index.html">${translation.Home}</a>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/HOME/About.html">${translation.Our_tea}</a>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/LADIES/Ladies.html">${translation.Accessoires}</a>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/GENTLEMENS/Gentlemens.html">${translation.Souvenirs}</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/HOME/Contact.html">${translation.Contact_us}</a>
+                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/HOME/index">${translation.Home}</a>
+                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/HOME/About">${translation.Our_tea}</a>
+                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/LADIES/Ladies">${translation.Accessoires}</a>
+                    <a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/GENTLEMENS/Gentlemens">${translation.Souvenirs}</a>
                 </div>
             </div>
 
@@ -293,7 +291,7 @@ function Add_Menu_responsif_logged(translation) {
 
         <img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Logo.png" id="Logo_home"/>
         <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Home/index.html">${translation.Home}</a></div>
-        <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea}</a></div>
+        <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_tea.html">${translation.Our_tea_link}</a></div>
         <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Our_accessoires.html">${translation.Accessoires}</a></div>
         <div class="menu"><a class="dropdown-item" href="https://decommissionvn.github.io/lesThesEmilieBackup/Products/Souvenirs.html">${translation.Souvenirs}</a></div>
 

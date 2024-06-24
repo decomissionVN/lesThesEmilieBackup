@@ -5,6 +5,11 @@ function language_used(){
     console.log(language);
     if (language === 'fr'){
         let translation = {
+            History : "Histoire du thé",
+            Benefits : "Thé et santé",
+            Selection : "Nos thés & Séléctions",
+            Preparation : "Préparation du thé",
+            Boutique : "Notre boutique",
             Title_Page : "Les thés d'Emilie | Tea in Paris",
             Title_Home : "Sur mesure",
             Subtitle_Home : "La tradition du sur mesure se perpétue car elle représente un savoir faire d'exception, transmis de père en fils depuis plusieurs générations. Troisfils est fière de vous proposer ce service d'exception de manière innovante et moderne.",
@@ -92,6 +97,10 @@ function language_used(){
         User_logged(translation);
     } else {
         let translation = {
+            History : "History of tea",
+            Benefits : "Tea & health ",
+            Selection : "Our tea & Selection ",
+            Preparation : "Préparation of tea",
             Title_Page : "Les thés d'Emilie | Thés à Paris",
             Title_Home : "Tailoring",
             Contact : "Contact the shop",
