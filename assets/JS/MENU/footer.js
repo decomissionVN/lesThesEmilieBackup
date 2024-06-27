@@ -21,7 +21,7 @@ function display_footer(translation) {
                                     <a href="" alt="Instagram"><img src="https://decommissionvn.github.io/lesThesEmilieBackup/assets/IMAGES/HOME/Instagram.png" alt="Instagram"></a>
                                 </div>
 
-                            <a href="https://decommissionvn.github.io/lesThesEmilieBackup/dashboard/Contact_us.html" class="button_reverse mt-5 mb-5">${translation.Contact}</a>
+                            <a href="https://lesthesdemilie.com/About/Boutique.html" class="button_reverse mt-5 mb-5">${translation.Contact}</a>
                             <p class="mt-5 w-100 text-center">76 Boulevard Haussmann, 75008 Paris</p>
                             <p class="w-100 text-center">01 43 87 39 84</p>
                             </div>
